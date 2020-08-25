@@ -1,0 +1,16 @@
+navbar:
+   title: "My Tidy Tuesday Collection Website"
+   left:
+     - text: "Home"
+       href: index.html
+     - text: "New Post"
+       href: post2.html
+     - text: "Another Post"
+       href: post1.html
+
+output:
+   html_document:
+     theme: darkly
+     include:
+       after_body: footer.html
+     css: styles.css
